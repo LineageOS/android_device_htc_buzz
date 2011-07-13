@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHX//+xc\u003d",
+        "filename": "libgralloc/framebuffer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2011-07-13T14:56:37Z",
+      "side": 1,
+      "message": "This was not a typo, the standard msm_mdp.h was different from that phone\u0027s kernel MDP header. Are they the same now?",
+      "revId": "f933d0fcdcd21568b22f92140b0d0cc77861de22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
