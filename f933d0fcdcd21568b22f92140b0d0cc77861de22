@@ -16,6 +16,24 @@
       "revId": "f933d0fcdcd21568b22f92140b0d0cc77861de22",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//+xM\u003d",
+        "filename": "libgralloc/framebuffer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2011-07-13T21:31:25Z",
+      "side": 1,
+      "message": "Hmm, they used to be the same when using the .32 kernel. If I understand correctly, using #include \"linux/msm_mdp.h\" means include a file in the same dir, but there\u0027s no linux/msm_mdp.h in this dir here. And in this case, using #include \u003clinux/msm_mdp.h\u003e will use the bionic one. I think the typo is from when I tested with a local msm_mdp.h, but then I reverted to the bionic one with adding linux/ but forgot to remove the parentheses. Do you recommend I copy the kernels msm_mdp.h to here, and include it so they both match?",
+      "parentUuid": "AAAAHX//+xc\u003d",
+      "revId": "f933d0fcdcd21568b22f92140b0d0cc77861de22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
