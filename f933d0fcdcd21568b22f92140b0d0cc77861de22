@@ -34,6 +34,24 @@
       "revId": "f933d0fcdcd21568b22f92140b0d0cc77861de22",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAHX//+n8\u003d",
+        "filename": "libgralloc/framebuffer.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2011-07-15T23:02:15Z",
+      "side": 1,
+      "message": "The msm_mdp header that we have in bionic actually has a few ifdefs in it for devices that support MDP 4.",
+      "parentUuid": "AAAAHX//+xM\u003d",
+      "revId": "f933d0fcdcd21568b22f92140b0d0cc77861de22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
