@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAHn///28\u003d",
+        "filename": "BoardConfig.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1119
+      },
+      "writtenOn": "2011-07-26T01:15:42Z",
+      "side": 1,
+      "message": "I\u0027m not 100% sure, but i think this makes the scroll-over effect (glowing edge) in lists look really ugly. Especially on lists with white backgrounds this can be seen.",
+      "revId": "911bff4b12e7c8673fa673003d8d11b44880e026",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
